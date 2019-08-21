@@ -34,3 +34,13 @@ if __name__ == '__main__':
     print(f'{text1.common_contexts(["monstrous", "very"])}')
     print(f'\nCOMMON CONTEXTS ["monstrous", "very"] in: {text2.name}')
     print(f'{text2.common_contexts(["monstrous", "very"])}')
+
+    # dispersion_plot(['a', 'b', ...]) shows positional density of words in a text with a plot
+    text1.dispersion_plot(['equator', 'island'])
+    text2.dispersion_plot(['happy', 'married'])
+
+    # generate() creates text in the 'style' of a given passage
+    print(f'{text1.name} generation:')
+    text1.generate()
+    print(f'{text2.name} generation:')
+    text2.generate()
