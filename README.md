@@ -1,4 +1,4 @@
-# gradual-languid-processing
+# gradual-languid-progressing
 
 Introductory learning work with natural language processing.
 
